@@ -1,0 +1,22 @@
+p {
+    font-family: "Geo", sans-serif;
+}
+
+h1 {
+    font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#myname {
+    text-align: center;
+    margin-top: 20px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}

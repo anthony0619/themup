@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Mup</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geo:ital@0;1&family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <style>
+        #topnav {
+            display: flex;
+            align-items: center;
+            position: relative;
+            font-family: 'ZCOOL QingKe HuangYou', sans-serif; 
+        }
+        
+        #topnav h3, #topnav h2, #topnav h1 {
+            margin: 0 10px; 
+        }
+        
+        #topnav h1 {
+            font-weight: normal;
+            font-style: normal;
+            color: #5e3c71;
+            margin: 0; 
+            font-family: 'ZCOOL QingKe HuangYou', sans-serif; 
+        }
+        #topnav h1:hover {
+            transform: translateY(-30px);
+        }
+        #topnav img { 
+            height: 3%; 
+            width: auto;
+            margin-right: 5px; 
+            vertical-align: middle; 
+            float: left; 
+        }
+        #topnav a {
+            display: flex;
+            align-items: center; 
+            height: 80px; 
+            text-decoration: none; 
+            color:#5e3c71;
+            position: relative;
+            z-index: 1;
+            padding: 0 10px; 
+        }
+        h2 {
+            color: #447957;
+            text-align: right;
+            flex-grow: 1;
+            font-family: 'ZCOOL QingKe HuangYou', sans-serif; 
+            font-size: 24px; 
+            margin-bottom: 20px; 
+        }
+        .container {
+            text-align: center;
+            font-family: 'Geo', sans-serif; 
+            margin-top: 50px; 
+        }
+        
+        .container h1 {
+            font-size: 60px;
+            font-family: 'ZCOOL QingKe HuangYou', sans-serif; 
+    
+        }
+        p {
+            font-size: 20px;
+            max-width: fit-content;
+            margin: 5% auto; 
+            color: grey;
+            /* Text reveal effect */
+            position: relative;
+            -webkit-clip-path: inset(0 0 100% 0);
+            clip-path: inset(0 0 100% 0);
+            -webkit-animation: reveal-text 4s forwards; 
+            animation: reveal-text 4s forwards;
+        }
+
+        @keyframes reveal-text {
+            0% {
+                -webkit-clip-path: inset(0 0 100% 0);
+                clip-path: inset(0 0 100% 0);
+            }
+            100% {
+                -webkit-clip-path: inset(0 0 0 0);
+                clip-path: inset(0 0 0 0);
+            }
+        }
+        
+        /* Center iframes */
+        iframe {
+            display: block;
+            margin: 20px auto; 
+        }
+    </style>
+</head>
+<body>
+  
+    <header>
+        <nav>
+            <div id="topnav">
+                <a href="index.html">
+                <h1><a href="../index.html">The Mup</a></h1>
+                </a>
+                <a href="https://pitchfork.com/reviews/albums/"><h2>Reviews</h2></a>
+                <a href="../newmusic/newmusic.html"><h2>Best New Music</h2></a>
+                <a href="../board/board.html"><h2>Board</h2></a>
+            </div>
+        </nav>
+    </header
+
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="img/pinball.jpg" alt="Pinball">
+            <p>Mike & Tony Seltzer - Pinball</p>
+        </div>
+        <div class="grid-item">
+            <img src="img/metro.jpg" alt="We Dont Trust You">
+            <p>Metro Boom & Future - We Dont Trust You</p>
+        </div>
+        <div class="grid-item">
+            <img src="img/nine.jpg" alt="9">
+            <p>Kenny Mason - 9</p>
+        </div>
+        <div class="grid-item">
+            <img src="img/bk.jpg" alt="LVL 5 P2">
+            <p>Bktherula - LVL 5 P2</p>
+        </div>
+        <div class="grid-item">
+            <img src="img/itsus.jpg" alt="Its Us Vol. 1">
+            <p>Concrete Boys - It's Us Vol. 1</p>
+        </div>
+    </div>
+
+</body>
+</html>

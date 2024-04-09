@@ -1,0 +1,41 @@
+h1 {
+    font-family: "Geo", sans-serif;
+    font-size: 3%; 
+}
+
+a {
+    font-family: "ZCOOL QingKe HuangYou", sans-serif;
+    font-size: 20pt; 
+    margin-right: 20px; 
+}
+
+#topnav {
+    display: flex;
+    align-items: center;
+}
+
+#topnav h1 {
+    font-size: 30pt; 
+    margin: 0 10px; 
+}
+#topnav h2 {
+    margin-left: 90px;
+    color: #447957;
+    
+}
+#topnav h3 {
+    font-size: 10pt;
+    opacity: 10%;
+}
+
+#myname {
+    margin-left: 830px;
+    font-family: "ZCOOL QingKe HuangYou", sans-serif;
+    color: grey;
+    opacity: 15%;
+}
+
+#rising {
+    margin-bottom: 200px;
+}
+

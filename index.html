@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Mup</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geo:ital@0;1&family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <style>
+        #topnav {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            font-family: 'ZCOOL QingKe HuangYou', sans-serif; 
+        }
+        
+        #topnav h3, #topnav h2, #topnav h1 {
+            margin: 0 10px; 
+        }
+        
+        #topnav h1 {
+            margin: 0; 
+            font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+            font-weight: normal;
+            font-style: normal;
+            color: #5e3c71;
+        }
+        #topnav h1:hover {
+            transform: translateY(-3px) scale(1.1); 
+            animation: bounce 0.5s infinite; 
+        }
+        
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-30px);
+            }
+            60% {
+                transform: translateY(-15px);
+            }
+        }
+        #topnav a {
+            display: flex;
+            align-items: center; 
+            height: 80px; 
+            text-decoration: none; 
+            color: black; 
+            position: relative;
+            z-index: 1;
+            padding: 0 10px; 
+        }
+        h2 {
+            font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+            color: #447957;
+            text-align: center; 
+            margin-top: 100px;
+            font-size: 25pt; 
+        }
+        #jt img,
+        #niontay img,
+        #four img {
+            width: 500px;
+            height: auto;
+        }
+        #niontay {
+            margin-left: 600px;
+        }
+        #niontay, #jt, #four{
+            margin-top: -150px;
+        }
+    </style>
+</head>
+<body>
+  
+    <header>
+        <nav>
+            <div id="topnav">
+                <a href="index.html">
+                    <a href="whatthemup/whatthemup.html">
+                        <h3>What</h3>
+                    </a>
+                    <h1>The Mup</h1>
+                    <a href="whatthemup/whatthemup.html">
+                        <h3>?</h3>
+                    </a>
+                    <a href="https://pitchfork.com/reviews/albums/">
+                        <h2>Reviews</h2>
+                    </a>
+                    <a href="newmusic/newmusic.html">
+                        <h2>Best New Music</h2>
+                    </a>
+                    <a href="board/board.html">
+                        <h2>Board</h2>
+                    </a>
+                </a>
+            </div>
+            <div id="rising">
+                <h2>Rising Rappers Putting Florida on The Map</h2> 
+            </div>
+            <div id="jt">
+                <a href="jt/jt.html"><img src="img/jtpic.png" alt="JT"></a>
+                <a href="jt/jt.html">JT</a>
+            </div>
+
+            <div id="niontay">
+                <a href="niontay/niontay.html"><img src="img/niontaypic.png" alt="Niontay"></a>
+                <a href="niontay/niontay.html">Niontay</a>
+            </div>
+
+            <div id="four">
+                <a href="454/454.html"><img src="img/454pic.png" alt="454"></a>
+                <a href="454/454.html">454</a>
+            </div>
+        </nav>
+    </header>
+
+</body>
+</html>
+
+

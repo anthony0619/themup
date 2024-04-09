@@ -1,0 +1,70 @@
+h1 {
+    font-family: "Geo", sans-serif;
+    font-size: 30pt; 
+    margin: 0; 
+}
+
+#topnav a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #5e3c71;
+    padding: 0 10px; 
+}
+
+#topnav {
+    display: flex;
+    align-items: center;
+}
+
+#topnav h1 {
+    margin-right: auto; 
+}
+
+#topnav h2 {
+    margin-left: 10px; 
+    margin-right: 10px; 
+}
+
+#topnav h3 {
+    font-size: 10pt;
+    margin-left: 10px; 
+}
+
+#topnav img {
+    width: 40px; 
+    height: auto; 
+    margin-right: 10px; 
+}
+
+#centerImage img {
+    max-width: 300px; 
+    max-height: 300px; 
+    margin-top: 150px;
+    margin-left: 600px;
+}
+
+#jt,
+#niontay,
+#454 {
+    margin-right: 20px; 
+}
+
+#jt img,
+#niontay img,
+#454 img {
+    height: 80px; 
+    width: auto;
+    margin-right: 5px; 
+    vertical-align: middle;
+}
+
+#jt a,
+#niontay a,
+#454 a {
+    display: flex;
+    align-items: center; 
+    text-decoration: none; 
+    color: black; 
+    padding: 0 10px;
+}
